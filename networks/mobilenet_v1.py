@@ -33,7 +33,6 @@ from keras.backend.tensorflow_backend import _preprocess_conv2d_input, _preproce
 from keras.engine.topology import InputSpec
 from keras.legacy.interfaces import conv2d_args_preprocessor, generate_legacy_interface
 from keras.utils import conv_utils
-from keras.utils.vis_utils import plot_model
 import tensorflow as tf
 
 class DepthwiseConvolution2D(Convolution2D):
@@ -258,7 +257,6 @@ def MobileNet_V1(input_tensor=None, input_shape=None, alpha=1, shallow=False, cl
         inputs = img_input
 
     model = Model(inputs, outputs, name='mobilenet_v1')
-    # plot_model(model, to_file='images/MobileNet_V1.png', show_shapes=True)
 
     return model
 
