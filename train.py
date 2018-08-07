@@ -13,7 +13,7 @@ epochs = 500
 
 if __name__ == "__main__":
 	parser = ap.ArgumentParser()
-	parser.add_argument("--model", help="model", required="True")
+	parser.add_argument("--net", help="network", required="True")
 	args = parser.parse_args()
 
 	(x_train, y_train), (x_test, y_test) = cifar10.load_data()
@@ -25,10 +25,10 @@ if __name__ == "__main__":
 	x_test /= 255
 	img_input = keras.layers.Input(shape=(32, 32, 3))
 
-	if args.model == 'mobilenet_v1':
+	if args.net == 'mobilenet_v1':
 		model = MobileNet_V1(input_tensor=img_input, classes=num_classes)
 		log_dir = 'logs/mobilenet_v1/000'
-	if args.model == 'mobilenet_v2':
+	if args.net == 'mobilenet_v2':
 		model = MobileNet_V2(input_tensor=img_input, classes=num_classes)
 		log_dir = 'logs/mobilenet_v2/000'
 	else:
