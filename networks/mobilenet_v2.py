@@ -9,7 +9,6 @@ from keras.backend import image_data_format
 from keras.backend.tensorflow_backend import _preprocess_conv2d_input, _preprocess_padding
 from keras.engine.topology import InputSpec
 from keras.utils import conv_utils
-from keras.utils.vis_utils import plot_model
 import tensorflow as tf
 
 class DepthwiseConvolution2D(Convolution2D):
@@ -210,7 +209,6 @@ def MobileNet_V2(input_tensor=None, input_shape=None, alpha=1, classes=1000):
         inputs = img_input
 
     model = Model(inputs, outputs, name='mobilenet_v2')
-    # plot_model(model, to_file='images/MobileNet_V2.png', show_shapes=True)
 
     return model
 
