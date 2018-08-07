@@ -7,11 +7,13 @@ A Keras implementation of [MobileNet_V1](https://arxiv.org/abs/1704.04861) and [
 - Tensorflow-gpu 
 - Keras
 
-## Performance
+## Training with Keras
 
-**train**
-
-This is the timing of 
+ - Training the classification model of cifar-10.
+```
+python3 train.py [--net]
+# --net in {mobilenet_v1, mobilenet_v2}
+```
 
 ## Performance
 
