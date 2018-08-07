@@ -7,11 +7,20 @@ A Keras implementation of [MobileNet_V1](https://arxiv.org/abs/1704.04861) and [
 - Tensorflow-gpu 
 - Keras
 
-## MobileNet v2
+## Performance
+
+**train**
+
+This is the timing of 
+
+## Performance
 
 **MobileNet v2:**  
 
-Each line describes a sequence of 1 or more identical (modulo stride) layers, repeated n times. All layers in the same sequence have the same number c of output channels. The first layer of each sequence has a stride s and all others use stride 1. All spatial convolutions use 3 X 3 kernels. The expansion factor t is always applied to the input size.
+This is the timing of MobileNetV1 vs MobileNetV2 using TF-Lite on the large core of Pixel 1 phone.
+<div align="center">
+<img src="https://github.com/MG2033/MobileNet-V2/blob/master/figures/irc.png"><br><br>
+</div>
 
 ## Reference
 
