@@ -1,27 +1,4 @@
-"""
-MobileNet_V1
-The following table describes the size and accuracy of the 100% MobileNet_V1
-on size 224 x 224:
-----------------------------------------------------------------------------
-Width Multiplier (alpha) | ImageNet Acc |  Multiply-Adds (M) |  Params (M)
-----------------------------------------------------------------------------
-|   1.0 MobileNet_V1-224    |    70.6 %     |        529        |     4.2     |
-|   0.75 MobileNet_V1-224   |    68.4 %     |        325        |     2.6     |
-|   0.50 MobileNet_V1-224   |    63.7 %     |        149        |     1.3     |
-|   0.25 MobileNet_V1-224   |    50.6 %     |        41         |     0.5     |
-----------------------------------------------------------------------------
 
-The following table describes the performance of
-the 100 % MobileNet_V1 on various input sizes:
-------------------------------------------------------------------------
-      Resolution      | ImageNet Acc | Multiply-Adds (M) | Params (M)
-------------------------------------------------------------------------
-|  1.0 MobileNet_V1-224  |    70.6 %    |        529        |     4.2     |
-|  1.0 MobileNet_V1-192  |    69.1 %    |        529        |     4.2     |
-|  1.0 MobileNet_V1-160  |    67.2 %    |        529        |     4.2     |
-|  1.0 MobileNet_V1-128  |    64.4 %    |        529        |     4.2     |
-------------------------------------------------------------------------
-"""
 
 from keras.applications.imagenet_utils import _obtain_input_shape
 from keras.models import Model
