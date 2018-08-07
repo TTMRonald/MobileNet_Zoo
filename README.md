@@ -21,7 +21,7 @@ python3 train.py [--net]
 
 This is the timing of MobileNetV1 vs MobileNetV2 using TF-Lite on the large core of Pixel 1 phone.
 <div align="center">
-<img src="https://github.com/MG2033/MobileNet-V2/blob/master/figures/irc.png"><br><br>
+<img src="https://github.com/tensorflow/models/blob/master/research/slim/nets/mobilenet/mnet_v1_vs_v2_pixel1_latency.png"><br><br>
 </div>
 
 ## Reference
