@@ -1,5 +1,5 @@
 # MobileNet_Zoo
-A Keras implementation of [MobileNet_V1](https://arxiv.org/abs/1704.04861) and [MobileNet_V2](https://arxiv.org/abs/1801.04381).
+A Keras implementation of MobileNet_V1 and MobileNet_V2.
 
 ## Requirement
 - OpenCV 3
@@ -32,15 +32,5 @@ This is the timing of MobileNetV1 vs MobileNetV2 using TF-Lite on the large core
 
 ## Reference
 
-	@article{MobileNet_V1,  
-	  title={MobileNets:Efficient Convolutional Neural Networks for Mobile Vision Applications},  
-	  author={Google Inc.},
-	  journal={arXiv:1704.04861},
-	  year={2017}
-	}
-	@article{MobileNet_V2,  
-	  title={MobileNetV2: Inverted Residuals and Linear Bottlenecks},  
-	  author={Google Inc.},
-	  journal={arXiv:1801.04381},
-	  year={2018}
-	}
+- [MobileNets:Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
+- [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381)
