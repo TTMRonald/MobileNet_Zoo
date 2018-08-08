@@ -3,7 +3,7 @@ MobileNet_V1
 The following table describes the size and accuracy of the 100% MobileNet_V1
 on size 224 x 224 for ImageNet dataset:
 ----------------------------------------------------------------------------
-Width Multiplier (alpha) | ImageNet Acc |  Multiply-Adds (M) |  Params (M)
+Width Multiplier (alpha) | Top 1 Acc |  Multiply-Adds (M) |  Params (M)
 ----------------------------------------------------------------------------
 |   1.0 MobileNet_V1-224    |    70.6 %     |        529        |     4.2     |
 |   0.75 MobileNet_V1-224   |    68.4 %     |        325        |     2.6     |
@@ -11,10 +11,10 @@ Width Multiplier (alpha) | ImageNet Acc |  Multiply-Adds (M) |  Params (M)
 |   0.25 MobileNet_V1-224   |    50.6 %     |        41         |     0.5     |
 ----------------------------------------------------------------------------
 
-The following table describes the performance of
-the 100 % MobileNet_V1 on various input sizes:
+The following table describes the performance of the 100 % MobileNet_V1 
+on various input sizes for ImageNet dataset:
 ------------------------------------------------------------------------
-      Resolution      | ImageNet Acc | Multiply-Adds (M) | Params (M)
+      Resolution      | Top 1 Acc | Multiply-Adds (M) | Params (M)
 ------------------------------------------------------------------------
 |  1.0 MobileNet_V1-224  |    70.6 %    |        529        |     4.2     |
 |  1.0 MobileNet_V1-192  |    69.1 %    |        529        |     4.2     |
