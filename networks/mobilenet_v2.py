@@ -1,4 +1,17 @@
-
+"""
+MobileNet_V2
+The following table describes the size and accuracy of different light-weight networks 
+on size 224 x 224 for ImageNet dataset:
+-----------------------------------------------------------------------------
+Network                  |   Top 1 acc   |  Multiply-Adds (M) |  Params (M) |
+-----------------------------------------------------------------------------
+|   MobileNetV1          |    70.6 %     |        575         |     4.2     |
+|   ShuffleNet (1.5)     |    69.0 %     |        292         |     2.9     |
+|   ShuffleNet (x2)      |    70.9 %     |        524         |     4.4     |
+|   NasNet-A             |    74.0 %     |        564         |     5.3     |
+|   MobileNetV2          |    71.7 %     |        300         |     3.4     |
+-----------------------------------------------------------------------------
+"""
 
 from keras.applications.imagenet_utils import _obtain_input_shape
 from keras.models import Model
