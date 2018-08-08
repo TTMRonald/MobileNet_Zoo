@@ -15,9 +15,15 @@ python3 train.py [--net]
 # --net in {mobilenet_v1, mobilenet_v2}
 ```
 
-## Performance
+## Visualizating with Tensorboard
 
-**MobileNet v2:**  
+ - Visualizating the classification model of cifar-10.
+```
+tensorboard --logdir=logs/[net]/000
+# --net in {mobilenet_v1, mobilenet_v2}
+```
+
+## Performance
 
 This is the timing of MobileNetV1 vs MobileNetV2 using TF-Lite on the large core of Pixel 1 phone.
 <div align="center">
