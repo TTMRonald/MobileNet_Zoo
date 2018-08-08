@@ -32,5 +32,5 @@ This is the timing of MobileNetV1 vs MobileNetV2 using TF-Lite on the large core
 
 ## Reference
 
-- [MobileNets:Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
-- [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381)
+- [MobileNet_V1](https://arxiv.org/abs/1704.04861)
+- [MobileNet_V2](https://arxiv.org/abs/1801.04381)
