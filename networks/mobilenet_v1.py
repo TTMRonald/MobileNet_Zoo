@@ -1,7 +1,7 @@
 """
 MobileNet_V1
 The following table describes the size and accuracy of the 100% MobileNet_V1
-on size 224 x 224:
+on size 224 x 224 for ImageNet dataset:
 ----------------------------------------------------------------------------
 Width Multiplier (alpha) | ImageNet Acc |  Multiply-Adds (M) |  Params (M)
 ----------------------------------------------------------------------------
