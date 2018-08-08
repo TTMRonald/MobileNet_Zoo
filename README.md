@@ -4,7 +4,7 @@ A Keras implementation of [MobileNet_V1](https://arxiv.org/abs/1704.04861) and [
 ## Requirement
 - OpenCV 3
 - Python 3
-- Tensorflow-gpu 
+- Tensorflow 
 - Keras
 
 ## Training with Keras
