@@ -7,7 +7,7 @@ from keras.callbacks import TensorBoard, ModelCheckpoint, ReduceLROnPlateau, Ear
 from networks.mobilenet_v1 import MobileNet_V1
 from networks.mobilenet_v2 import MobileNet_V2
 
-batch_size = 32
+batch_size = 64
 num_classes = 10
 epochs = 500
 
