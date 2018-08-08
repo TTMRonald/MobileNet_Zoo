@@ -1,5 +1,3 @@
-import sys, os
-sys.path.insert(0, os.path.abspath('..'))
 import argparse as ap
 import keras
 from keras.datasets import cifar10
